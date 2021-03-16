@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Demo</title>
+
+         <!-- Tag for CSS, it goes inside the head tags-->
+        <style>
+            /* Below we have a group selector affecting both the paragrahs and the list */
+            p, li{
+                color:darkred;
+                font-size: 1em;
+                font-family:'Times New Roman', Times, serif;
+                font-weight:bolder;
+                text-decoration: underline;
+
+                /* to do the same thing is percentage =     font-size: 200%;    */
+                /* you can look uo different properties on w3schools */
+            }
+
+            body {
+                /* Not affecting anything because of inherritence from above */
+                color:blue;
+            }
+            /* Only a tags inside p tags will be green */
+            p a {
+                color:green;
+            }
+            /* # sign is for id selectors */
+            #firstp {
+                color:deeppink;
+            }
+            /* this is for class selectors */
+            .thirdp {
+                color:yellow;
+            }
+
+
+        </style>
+        <!-- p is our selector, color is our property, blue is our value-->
+        <!-- the declaration is color, blue -->
+        <!-- 1em is the default font size, 2 is twice the size, 0.5 is half the default size-->
+    </head>
+    <body>
+        <!-- id values must be unique, we can't have two values with firstp -->
+        <p id="firstp"> Lorem ipsum </p>
+
+        <p>Second paragraph <a href="http://www.google.com">Google</a></p>
+
+        <!-- class attributes can be used over and over again with the same value -->
+        <p class="thirdp">third paragraph</p>
+        
+        <ul>
+            <li>my list item</li>
+            <li><a href="http://www.google.com">Google</a></li>
+        </ul>
+
+    </body>
+</html>
