@@ -1,0 +1,40 @@
+h1 {
+    color: #ff0000;
+    /* hex color requires # sign and six digits */
+    /* First two digits are red, then green, then blue */
+}
+
+/* these three selectors are psuedo selectors */
+/* colon separates the selector from it's state */
+
+a:link {
+    color:#00ff00;
+}
+a:visited {
+    color:#0000ff;
+}
+
+a:hover {
+    color:#8000ff;
+    background:#ebe834;
+}
+
+.lookdifferent:hover {color:#999999;}
+/* abpve uses a class selector with the psuedo state */
+
+body {
+    background-color:#c9c9ab;
+    background-image: url(../images/LI-Logo.png);
+    background-size: 100%;
+}
+
+p {
+    background-color: #ffffff;
+    padding: 20px;
+    /* Space between content and edge of the box */
+    margin: 50px;
+    /* Space between the outside of the box and the rest of the content */
+    border: 5px solid #0000ff;
+    /* this is a combo value ^^ */
+    /* width of your box is content width + border width x2 + margin width x2 + padding with x2 */
+}
