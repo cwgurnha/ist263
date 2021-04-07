@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+
+    <style>
+        .info {float: left; margin-right: 50px;}
+
+        .part1 {
+            padding: 20px;
+            background-color: #cce5ff; 
+            border-radius: 1em;
+            }
+
+        .part2 {
+            display: flex;
+            padding: 20px;
+            background-color: #cce5ff;
+            border-radius: 1em;
+            }
+        .part1, .part2{margin:30px;}
+        .article1, .article2 {margin: 20px;}
+        .article1 {flex:2; order: 2}
+        .article2 {flex:2; order: 1}
+
+
+    </style>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="skills.html">Skills</a> 
+        </nav>
+        
+        <h1> Contact </h1>
+
+        <div class="part1">  
+            <h2>Address</h2>
+            <p class="info"> 
+                Connor Gurnham <br>
+                141 Winding Ridge Rd <br>
+                Syracuse, NY 13210 
+            </p>
+
+            
+            <p>
+                <a href="mailto:cwgurnha@syr.edu">Connor Gurnham Email</a>
+            </p>
+                
+            <p>
+                <a href="http://www.linkedin.com/in/connor-gurnham" target="_blank">
+                <img src= "../images/LinkedIn_sized.png" alt= "LinkedIn logo">
+                </a>
+
+                <a href="http://www.linkedin.com/in/connor-gurnham" target="_blank">My LinkedIn Profile</a>
+            </p>
+            
+        </div>
+        <div class="clear"></div>
+  
+        <div class="part2">
+            
+            <article class = "article1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11668.734944392729!2d-76.13163465678872!3d43.01651966637098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f4830cbded01%3A0x8814363eb570f48a!2s141%20Winding%20Ridge%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614100442749!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen=""
+            title= "Map"></iframe><hr>
+            </article>
+            <article class = "article2">
+            <form action="mailto:cwgurnha@syr.edu" Method="POST">
+
+                <label for="schoolname"> What school do you attend: </label>
+                <input type="text" name="schoolname" id="schoolname"><br>
+
+                <p>Please choose you year in school: </p>
+                <input type="radio" name="schoolyear" id="schoolyearfr" value="Freshman">
+                <label for="schoolyearfr">Freshman</label>
+                <input type="radio" name="schoolyear" id="schoolyearso" value="Sophmore">
+                <label for="schoolyearso">Sophmore</label>
+                <input type="radio" name="schoolyear" id="schoolyearju" value="Junior">
+                <label for="schoolyearju">Junior</label>
+                <input type="radio" name="schoolyear" id="schoolyearse" value="Senior">
+                <label for="schoolyearse">Senior</label><br><br>
+
+                <label for="comments">Additional comments: </label>
+                <textarea name ="comments" id="comments" rows='10' cols="100">Type your comments here:</textarea>
+
+                <input type="submit" value="Send">
+            </form>
+            </article>
+        </div>
+
+    </body>
+</html>
