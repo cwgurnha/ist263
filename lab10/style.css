@@ -1,5 +1,5 @@
 body {
-    background-color: #3feee6;
+    background-color: #d6d5d5;
     color: #000000;
 }
 h1, h2{
@@ -10,12 +10,12 @@ a:link {
 }
 
 nav {
-    background-color:#254a55;
+    background-color:#cce5ff;
     padding: 10px;
     margin-bottom: 30px;
 }
-nav a {color: #ffffff;}
-nav a:hover {background-color:#000000;}
+nav a {color: #000000;}
+nav a:hover {background-color:#ffffff;}
 
 @media only screen and (max-width: 768px) {
     nav a {
