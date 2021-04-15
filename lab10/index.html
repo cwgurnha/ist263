@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, identical-scale=1.0">
         <title> Connor Gurnham - Bio </title>
         <link rel="stylesheet" href="style.css">
 
-        
+    <style>
+        .cake {
+            float: left; 
+            margin-right: 50px;
+            max-width: 100%;
+        }
+        .footer1 {float: left; margin-left: 10px;}
+        .footer2 {float: right; margin-right: 10px;}
+        .clear {clear: both;}
+    </style>
     </head>
 
     <body>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="contact.html">Contact</a> |
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="contact.html">Contact</a> <span>|</span>
             <a href="skills.html">Skills</a> 
         </nav>
         
 
-    <a><img src= "../images/my_cake.png" alt= "LinkedIn logo">
+    <a><img src= "../images/my_cake.png" class="cake" alt= "cake slefie">
     </a>
     <h1> Connor Gurnham's Biography </h1>
 
+    <main>
     <p>
     My name is Connor Gurnham and I am from Guilford CT. I am 21 years old and halfway through my junior year at Syracuse University. 
     I am a Systems and Information Science Major with a minor in ECS management and an economics minor. 
@@ -53,9 +64,17 @@
         </ul>
     
     <p> That’s all about me! </p>
+    </main>
+    <div class="clear"></div>
 
+    <footer>
     <hr>
-    <p> &copy; 2020</p>
+    <p class="footer1"> &copy; 2020</p>
+    <p class="footer2"> "Not trying leads to regret" - Connor Gurnham </p>
+    </footer>
+    <div class="clear"></div>
+    
+
 
     </body>
 
