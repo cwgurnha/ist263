@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Answer </title>
+        <script>
+          
+            function OnBlur() {
+                alert("You left this form element");
+            }
+
+
+        </script>
+    </head>
+    <body>
+        
+
+        <form action="mailto:cwgurnha@syr.edu" Method="POST">
+
+            <label for="schoolname"> What school do you attend: </label>
+            <input type="text" onblur="OnBlur();" name="schoolname" id="schoolname"><br><br>
+
+
+            <label for="comments">Additional comments: </label><br>
+            <textarea name ="comments" id="comments" rows='10' cols="40">Type your comments here:</textarea>
+
+            <input type="submit" value="Send">
+        </form>
+
+    </body>
+</html>
