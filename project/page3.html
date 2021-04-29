@@ -4,6 +4,64 @@
         <meta charset="utf-8">
         <title>Option trading</title>
         <link rel="stylesheet" href="style.css">
+
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        .header {
+            background-image: url("./media/main_photo.png");
+            border-style: solid;
+            height: 25%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .header-text {
+            text-align: center;
+            position: relative;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 45px;
+            color:rgb(112, 17, 17);
+        }
+
+        .HD {float: left; margin: 50px;}
+        .clear {clear: both;}
+
+        .part1 {
+            font-size: 24px; 
+            margin: 10px;  
+            margin-right:30px; 
+        }
+
+        .whyO{
+            display: flex;
+            
+            margin-bottom: 50px;
+        }
+        .whyP, .money {
+            margin: 50px;
+        }
+        .whyP {flex:0.75;}
+        .money { flex: 2;}
+
+        .learn{text-align: center;}
+
+        .video {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 600px;
+            height: 400px;
+
+            
+        }
+    </style>
         
     </head>
     <body>
@@ -13,62 +71,74 @@
             <a href="page2.html">Strategies</a> <span>|</span>
             <a href="page3.html">Options</a> 
         </nav>
-
-        <h1>Option Trading</h1>
-
-        <div>
-            <h2>What is an option?</h2>
-            <p>
-            An option is a contract giving the buyer the right, but not obligation, to buy or sell the underlying asset at a specific price on or before a certain date. 
-            </p>
-        </div>
-
-        <div>
-            <h2>How do they work?</h2>
-            <p>
-            Options is a more advanced way of trading that allows potentially for more rewards. 
-            </p>
-        </div>
         
-        <a><img src= "./media/HD_options_sized.png" class="HD" alt= "HD example photo"></a>
-
-        <div>
-            <h3>Calls</h3>
-            <p>
-            A call option gives the holder the right to buy a stock 
-                When you make a call you are expecting the price of the stock to increase by certain date.
-            </p>
-        </div>
+        <header class ="header">
+            <div class="header-text">
+                <h1>Option Trading</h1>
+            </div>
+        </header>>
         
-        <div>
-            <h3>Puts</h3>
-            <p>
-            A put option gives the holder the right to sell a stock
-                When you make a put you are expecting the price pf a stock to decrease by a certain date.
-            </p>
-        </div>
+        <main>
+            <a><img src= "./media/HD_options_sized.png" class="HD" alt= "HD example photo"></a>
 
-        <div>
-            <h2>Expiration Date</h2>
-            <p>
-            Expiration date: The expiration date is the day you decide on your contract for it to expire. This means you have until this date to sell your option or it will render worthless.
-            </p>
-        </div>
+            <div class="part1">
+                <section>
+                    <h2>What is an option?</h2>
+                    <p>
+                    An option is a contract giving the buyer the right, but not obligation, to buy or sell the underlying asset at a specific price on or before a certain date. 
+                    </p>
+                </section>
 
-        
-        <a><img src= "./media/money.jpeg" class="money" alt= "money photo"></a>
+                <section>
+                    <h2>How do they work?</h2>
+                    <p>
+                    Options is a more advanced way of trading that allows potentially for more rewards. 
+                    </p>
+                </section>
+                
 
-        <div>
-            <h2>Why Use Options?</h2>
-            <p>
-            Options are attractive because they provide leverage. They give you the ability to by the stock for just dollars when the stocks are worth hundreds.
-            </p>
-        </div>
+                <section>
+                    <h3>Calls</h3>
+                    <p>
+                    A call option gives the holder the right to buy a stock When you make a call you are expecting the price of the stock to increase by certain date.
+                    </p>
+                </section>
+                
+                <section>
+                    <h3>Puts</h3>
+                    <p>
+                    A put option gives the holder the right to sell a stock When you make a put you are expecting the price pf a stock to decrease by a certain date.
+                    </p>
+                </section>
 
-        <h3>Learn from an expert in the video below</h3>
+                <div class="clear"></div>
 
-        <iframe src="https://www.youtube.com/embed/7PM4rNDr4oI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <section>
+                    <h2>Expiration Date</h2>
+                    <p>
+                    Expiration date: The expiration date is the day you decide on your contract for it to expire. This means you have until this date to sell your option or it will render worthless.
+                    </p>
 
+                    <h2>Why Use Options?</h2>
+                </section>
+            </div>
+
+            <section>
+                
+                <div class="whyO">
+                    <p class="whyP">
+                    Options are attractive because they provide leverage. They give you the ability to by the stock for just dollars when the stocks are worth hundreds.
+                    </p>
+
+                    <a><img src= "./media/money.jpeg" class="money" alt= "money photo"></a>
+                </div>
+            </section>
+
+            <h1 class="learn">Learn from an expert in the video below</h1>
+
+            <iframe src="https://www.youtube.com/embed/7PM4rNDr4oI" title="YouTube video player" class="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+
+        </main>
 
     </body>
 </html>

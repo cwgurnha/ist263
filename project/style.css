@@ -1,43 +1,18 @@
 
+body {
+    background-color: #779e9c;
+    color: #ffffff;
+    font-size: 25px;
 
+}
 
 nav {
-    background-color:#232674;
+    background-color:#0f1144;
     padding: 10px;
     
 }
 nav a {color: #ffffff;}
 nav a:hover {background-color:#000000;}
 
-/*
 
-HOME PAGE
 
-<link rel="stylesheet" href="style.css">
-
-body, html {
-    height: 100%;
-}
-
-.header {
-    background-image: url("./media/main_photo.png");
-    border-style: solid;
-
-    height: 25%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.header-text {
-    text-align: center;
-    position: relative;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
-
-*/

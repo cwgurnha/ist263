@@ -4,6 +4,49 @@
         <meta charset="utf-8">
         <title>Investing strategies</title>
         <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        .header {
+            background-image: url("./media/main_photo.png");
+            border-style: solid;
+            height: 25%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .header-text {
+            text-align: center;
+            position: relative;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            color:rgb(112, 17, 17);
+        }
+
+
+        .strat_guy {float: right; margin: 70px;}
+        .clear {clear: both;}
+        
+        .part1 {
+            font-size: 25px; 
+            margin: 10px;  
+            margin-left:30px; 
+        }
+
+        .dip {
+            display: flex;
+            margin:50px;
+        }
+        .pdip, .chart {
+            margin: 50px;
+        }
+    </style>
         
     </head>
     <body>
@@ -14,58 +57,75 @@
             <a href="page3.html">Options</a> 
         </nav>
 
-        <h1>Investing Strategies</h1>
+        <header class ="header">
+            <div class="header-text">
+                <h1>Investing Strategies</h1>
+            </div>
+        </header>
 
-        <a><img src= "./media/stratagies.webp" class="football" alt= "football tactics photo"></a>
+        <main>
+            
+            <a><img src= "./media/strat_guy_sized.png" class="strat_guy" alt= "strat_guy"></a>
+            
 
-        <h2>
-        There are five major investing strategies:
-        </h2>
+            <div class="part1">
+                <div class="section1">  
+                    <h2>
+                    There are five major investing strategies:
+                    </h2>
 
-        <ul>
-            <li>General Trading</li>
-            <li>Selective Trading</li>
-            <li>Long-Pull Selection</li>
-            <li>Bargain Purchases</li>
-            <li>Buying the Dip</li>
-        </ul>
+                    <ul>
+                        <li>General Trading</li>
+                        <li>Selective Trading</li>
+                        <li>Long-Pull Selection</li>
+                        <li>Bargain Purchases</li>
+                        <li>Buying the Dip</li>
+                    </ul>
 
-        <div>
-            <h3>General Trading</h3>
-            <p>
-            This includes paying attention to the market and trying to predict the moves of the market. This includes spreading out investment purchases to reduce the impact of the market volatility.
-            </p>
-        </div>
+                    <section>
+                        <h3>General Trading</h3>
+                        <p class="paragraph">
+                        This includes paying attention to the market and trying to predict the moves of the market. This includes spreading out investment purchases to reduce the impact of the market volatility.
+                        </p>
+                    </section>
 
-        <div>
-            <h3>Selective Trading</h3>
-            <p>
-            This includes choosing specific stocks that you predict will out perform the market with a certain time frame. In order to do this investors usually examine market changes or government regulation changes.
-            </p>
-        </div>
+                    <section>
+                        <h3>Selective Trading</h3>
+                        <p class="paragraph">
+                        This includes choosing specific stocks that you predict will out perform the market with a certain time frame. In order to do this investors usually examine market changes or government regulation changes.
+                        </p>
+                    </section>
 
-        <div>
-            <h3>Long-Pull Selection</h3>
-            <p>
-            This includes finding stocks that will do very well over multiple years and are also known as growth stocks. These are usually newer companies that have a lot of room to grow.
-            </p>
-        </div>
+                    <section>
+                        <h3>Long-Pull Selection</h3>
+                        <p class="paragraph">
+                        This includes finding stocks that will do very well over multiple years and are also known as growth stocks. These are usually newer companies that have a lot of room to grow.
+                        </p>
+                    </section>
 
-        <div>
-            <h3>Bargain Purchases</h3>
-            <p>
-            This includes finding the stocks that are currently selling below their true value. The most common way for people to do this is by using a technique called price-to-earnings ratio. This is just dividing a company’s share price by its earnings per share.
-            </p>
-        </div>
+                    <section>
+                        <h3>Bargain Purchases</h3>
+                        <p class="paragraph">
+                        This includes finding the stocks that are currently selling below their true value. The most common way for people to do this is by using a technique called price-to-earnings ratio. This is just dividing a company’s share price by its earnings per share.
+                        </p>
+                    </section>
+                </div> 
 
-        <div>
-            <h3>Buying the Dip</h3>
-            <p>
-            This is what most people think of when people say they day trade. This is buying a stock when the price of it is low then selling it when it is high. Unfortunately, for most people they buy when prices are high and rising and then sell when stocks are low and dipping. This is because people get scared of losing more money and get to greedy when the price rises. 
-            </p>
-        </div>
+            </div>
 
-        <a><img src= "./media/buy_dip_sell_high.jpg" class="chart" alt= "buy the dip photo"></a>
+            <div class="clear"></div>
+
+            <section>
+                <h3>Buying the Dip</h3>
+                <div class="dip">
+                    <p class="pdip">
+                    This is what most people think of when people say they day trade. This is buying a stock when the price of it is low then selling it when it is high. Unfortunately, for most people they buy when prices are high and rising and then sell when stocks are low and dipping. This is because people get scared of losing more money and get to greedy when the price rises. 
+                    </p>
+
+                    <a><img src= "./media/buy_dip_sell_high.jpg" class="chart" alt= "buy the dip photo"></a>
+                </div>
+            </section>
+        </main>>
 
     </body>
 </html>
