@@ -1,13 +1,13 @@
 
 body {
-    background-color: #779e9c;
+    background-color: #225D43;
     color: #ffffff;
     font-size: 25px;
 
 }
 
 nav {
-    background-color:#0f1144;
+    background-color:#163728;
     padding: 10px;
     
 }
@@ -16,3 +16,4 @@ nav a:hover {background-color:#000000;}
 
 
 
+/* #779e9c; */
