@@ -6,11 +6,9 @@
         <title>Investing strategies</title>
         <link rel="stylesheet" href="style.css">
     <style>
-            #bannerimage {
+        .banner {
             max-width: 100%;
-            background-image: url("./media/home_banner.JPG");
-            height: 300px;
-            background-position: center;
+            height: auto;
         }
 
         .title{
@@ -21,7 +19,8 @@
 
         .strat_guy {
             float: right; 
-            margin: 70px;
+          margin-left: 70px;
+          margin-bottom: 20px;
             max-width: 100%;
         }
         .clear {clear: both;}
@@ -32,15 +31,27 @@
             margin-left:30px; 
             flex-wrap: wrap;
         }
+        .dipheader{
+            margin-left: 30px;
+        }
 
         .dip {
             display: flex;
             margin:50px;
+        
             flex-wrap: wrap;
+            
+            
         }
         .pdip, .chart {
             margin: 50px;
+            
+        }
+
+        .chart {
+        
             max-width: 100%;
+            
         }
     </style>
         
@@ -53,7 +64,10 @@
             <a href="page3.html">Options</a> 
         </nav>
 
-        <header id="bannerimage"></header>
+        <header>
+            <img src= "./media/home_banner.JPG"  class="banner" alt = "banner">
+        </header>
+
         <main>
             <h1 class="title">Investing Strategies</h1>
             <hr>
@@ -109,7 +123,7 @@
             <div class="clear"></div>
 
             <section>
-                <h3>Buying the Dip</h3>
+                <h3 class ="dipheader">Buying the Dip</h3>
                 <div class="dip">
                     <p class="pdip">
                     This is what most people think of when people say they day trade. This is buying a stock when the price of it is low then selling it when it is high. Unfortunately, for most people they buy when prices are high and rising and then sell when stocks are low and dipping. This is because people get scared of losing more money and get to greedy when the price rises. 
