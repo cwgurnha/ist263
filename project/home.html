@@ -13,6 +13,8 @@
             height: auto;
         }
 
+        .main{text-align: center;}
+
         .buttons{
             display:flex;
             justify-content: center;
@@ -20,16 +22,12 @@
             margin-bottom: 50px;
         }
         .button1, .button2, .button3{margin: 20px;}
-        .button1:hover, .button2:hover, .button3:hover {
-            transform: scale(1.1);
-        }
 
-
-        
-
+        .button1:hover, .button2:hover, .button3:hover {transform: scale(1.1);}
 
     </style>
     </head>
+
     <body>
         <nav>
             <a href="home.html">Home</a> <span>|</span>
@@ -42,21 +40,20 @@
             <img src= "./media/home_banner.JPG"  class="banner" alt = "banner">
         </header>
         
-        <main>
-            <h2>Welcome to Investopia!</h2>
-            <p>
-                This is a place where investors whether you are a beginner just starting out, or an experienced investor looking for new ways to invest, can come together in a utopia.
-            </p>
+        <main class="main">
+            <section>
+                <header><h2>Welcome to Investopia!</h2></header>
+                <p>
+                    This is a place where investors whether you are a beginner just starting out, or an experienced investor looking for new ways to invest, can come together in a utopia.
+                </p>
+            </section>
             
             <div class="buttons">
-
                 <a href="page1.html" target="_self"> <img src= "./media/invest_background.png" alt= "investing_background" class="button1"></a>
 
                 <a href="page2.html" target="_self"><img src= "./media/strat_background_1.png" alt= "startegies_background"  class="button2" ></a>
 
                 <a href="page3.html" target="_self"><img src= "./media/option_background.png" alt= "options_background"  class="button3" ></a>
-
-
             </div>
            
 
