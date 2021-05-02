@@ -21,6 +21,10 @@ nav a:hover {background-color:#000000;}
         margin-bottom: 7px;
     }
     span {display: none;}
+
+    body section{font-size: 15px;}
+    body h2{font-size:25px;}
+    main{font-size: 100px;}
 }
 
 

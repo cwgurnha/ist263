@@ -7,11 +7,10 @@
         <link rel="stylesheet" href="style.css">
 
     <style>
-            #bannerimage {
-            width: 100%;
-            background-image: url("./media/home_banner.JPG");
-            height: 300px;
-            background-position: center;
+
+        .banner {
+            max-width: 100%;
+            height: auto;
         }
 
         .title{
@@ -19,11 +18,17 @@
             font-size: 80px;
         }
 
-        .HD {float: left; margin: 50px;}
+        .HD {
+            float: left; 
+            margin-right: 50px;
+            margin-bottom: 20px;
+            max-width:100%;
+            height: auto;
+        }
         .clear {clear: both;}
 
         .part1 {
-            font-size: 24px; 
+            font-size: 21px; 
             margin: 10px;  
             margin-right:30px; 
         }
@@ -35,6 +40,7 @@
 
         .whyO{
             display: flex;
+            flex-wrap: wrap;
             
             margin-bottom: 50px;
         }
@@ -50,10 +56,10 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 75px;
             width: 600px;
             height: 400px;
-
-            
+            max-width:100%; 
         }
     </style>
         
@@ -66,13 +72,17 @@
             <a href="page3.html">Options</a> 
         </nav>
         
-        <header id="bannerimage"></header>
+        <header>
+            <img src= "./media/home_banner.JPG"  class="banner" alt = "banner">
+
+            
+        </header>
         
         <main>
             <h1 class="title">Option Trading</h1>
             <hr>
 
-            <a><img src= "./media/HD_options_sized.png" class="HD" alt= "HD example photo"></a>
+            <img src= "./media/HD_options_sized.png" class="HD" alt= "HD example photo">
 
             <div class="part1">
                 <section>
@@ -118,16 +128,16 @@
                 <h2 class="whyclass">Why Use Options?</h2>
                 <div class="whyO">
                     <p class="whyP">
-                    Options are attractive because they provide leverage. They give you the ability to by the stock for just dollars when the stocks are worth hundreds.
+                    Options are attractive because they provide leverage. They give you the ability to buy the stock for just dollars when the stocks are worth hundreds.
                     </p>
 
-                    <a><img src= "./media/money.jpeg" class="money" alt= "money photo"></a>
+                    <span><img src= "./media/money.jpeg" class="money" alt= "money photo"></span>
                 </div>
             </section>
 
-            <h1 class="learn">Learn from an expert in the video below</h1>
+            <h2 class="learn">Learn from an expert in the video below</h2>
 
-            <iframe src="https://www.youtube.com/embed/7PM4rNDr4oI" title="YouTube video player" class="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+            <iframe src="https://www.youtube.com/embed/7PM4rNDr4oI" title="YouTube video player" class="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </main>
 
