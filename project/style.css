@@ -10,10 +10,11 @@ body {
 nav {
     background-color:#163728;
     padding: 10px;
-    
 }
 nav a {color: #ffffff;}
 nav a:hover {background-color:#000000;}
+
+
 
 @media only screen and (max-width: 1400px) {
     .buttons{flex-wrap: wrap;}
