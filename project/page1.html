@@ -20,13 +20,13 @@
 
             .part1 {
                 margin-top: 50px;
-                text-align: center;}
+                text-align: center;
+            }
             .part1_1 {
                 display:flex;
-                margin-top: 50px;
-                margin-bottom: 50px;
+                margin-top:50px;
             }
-            .section1, .section1_2, .section1_3, .part4_1, .budget_photo {margin: 70px;}
+            
             .section1 {flex: 1.5;}
             .section1_2 {flex: 1;}
             .section1_3 {flex: 1.5;}
@@ -35,27 +35,30 @@
                 display:flex;
                 margin-top: 50px;
                 margin-bottom: 50px;
+                flex-wrap:wrap;
             }
 
             .section2_1{
                 flex:2;
                 margin: 50px;
+                margin-top: 20px;
+                margin-left: 30px;
             }
             .section2_2{
                 display:flex;
                 flex:2;
+                
+                flex-wrap: wrap;
             }
-            .webull, .robinhood_sized, .TD {margin:20px;}
+            .webull, .robinhood_sized, .TD {margin:10px;}
 
-            .section3{margin:60px;}
+            .section3{margin:10px; margin-bottom: 50px;}
 
             .part4 {
-                display: flex;
-                margin:50px;
+                display:flex;
             }
 
             .slidebarheader{text-align:center;}
-
 
             .slider {
             -webkit-appearance: none;
@@ -67,13 +70,29 @@
 
             .slider:hover {opacity: 1; }
 
+            .part4_1 { margin-bottom:20px; margin-right: 30px;}
+            .budget_photo {margin-bottom: 20px;}
+
+
+            
+
             .part5 {
                 display: flex;
-                margin:50px;
+                margin-bottom:30px;
             }
-            .section5_1, .trend_line {margin:50px;} 
             
-            .portfolio{margin:50px;}
+            
+            .portfolio{
+                margin-right:50px;
+                margin-bottom:50px;
+            }
+
+            .part6 {
+                display: flex;
+                margin:1px;
+            }
+
+            .section6_1 {margin-right: 30px;}
         
         </style>
 
@@ -182,9 +201,9 @@
                 <h2>Step 5: Focus on long term</h2>
 
                 <div class="part5">
-                    <a><img src= "./media/stocks_going_up_sized.png" class="trend_line" alt= "trend line"></a>
+                    <a><img src= "./media/stocks_going_up_sized.png" class="trend_line" alt= "trend_line"></a>
 
-                    <p class="secetion5_1"><br><br>
+                    <p class="section5_1"><br><br>
                     Unless you are looking to day trade, which is not recommended for beginners, you should learn to focus long term. Many people when they lose any money get scared and pull out. Stocks only go up so if you stay in it for along enough, you will make money.
                     </p>
                 </div>
@@ -194,12 +213,12 @@
             <section>
                 <h2>Step 6: Manage your portfolio</h2>
 
-                <div class="part5">
-                    <p class="trend_line">
+                <div class="part6">
+                    <p class="section6_1">
                     You should never invest all your money into one stock. Spreading your money out will help prevent losing money. 
                     </p>
 
-                    <a><img src= "./media/Portfolio_sized.png" class="portfolio" alt= "portfolio image"></a>
+                    <a><img src= "./media/Portfolio_sized.png" class="portfolio" alt= "portfolio_image"></a>
                 </div>
 
             </section>
