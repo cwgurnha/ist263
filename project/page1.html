@@ -96,6 +96,11 @@
                 cursor: pointer;
             }
 
+            .slidecontainer {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+
             .part4_1 { margin-bottom:20px; margin-right: 30px;}
             .budget_photo {margin-bottom: 20px;}
 
@@ -209,27 +214,26 @@
                         <form>
                             <label class="slidebarheader">Move the bar to determine how much you should invest!</label>
                     
-                            
-                    
+
                             <div class="slidecontainer">
                                 <input type="range" min="1" max="1000000" value="500000" class="slider" id="myRange">
-                                <p>Your portfolio size: $</p><div id="demo"></div>
+
+                                <p>Your portfolio size: $</p>
+                                <div id="demo"></div>
                     
-                                <p>How much you should invest: $</p><div id="amount"></div>
-                              </div>
+                                <p>How much you should invest: $</p>
+                                <div id="amount"></div>
+                            </div>
                     
                             <script>
                                 var slider = document.getElementById("myRange");
-                                var output = document.getElementById("demo");
+                                var output1 = document.getElementById("demo");
                             
-                                output.innerHTML = slider.value;
+                                output1.innerHTML = slider.value;
                     
                                 slider.oninput = function() {
-                                output.innerHTML = this.value;
+                                output1.innerHTML = this.value;
                                 }
-                    
-                    
-                    
                     
                                 var slider = document.getElementById("myRange");
                                 var output = document.getElementById("amount");
